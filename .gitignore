@@ -1,0 +1,8 @@
+.trash
+\.cache/
+
+\.config/
+
+\.cura/
+
+\.local/
