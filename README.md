@@ -2,7 +2,7 @@
 
 Docker version of Cura Lulzbot Edition.
 
-## Usage
+## Usage example for Linux
 
     docker pull posttenebraslab/ptl-lulzbot
 
@@ -11,8 +11,6 @@ Docker version of Cura Lulzbot Edition.
             -v /dev/ttyACM0:/dev/ttyACM0 \
             -v /tmp/.X11-unix:/tmp/.X11-unix \
             posttenebraslab/ptl-lulzbot
-
-select Lulzbot TAZ 4 and enjoy ;-)
 
 ## More infos
 
