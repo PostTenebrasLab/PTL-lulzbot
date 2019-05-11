@@ -1,17 +1,11 @@
 # PTL-lulzbot
 
-This an automated build of custom cura version by Lulzbot to simplify Post Tenebras Lab 3d printer
+Docker version of Cura Lulzbot Edition.
 
-https://www.lulzbot.com/cura/debian-installation
+## Usage
 
-Just need to pull docker container and run it.
-
-## Usage :
-
-    docker search PTL-lulzbot
-    
     docker pull posttenebraslab/ptl-lulzbot
-    
+
     docker run --rm -e DISPLAY=$DISPLAY \
             -v $(pwd):/home/ptl/ \
             -v /dev/ttyACM0:/dev/ttyACM0 \
@@ -19,3 +13,9 @@ Just need to pull docker container and run it.
             posttenebraslab/ptl-lulzbot
 
 select Lulzbot TAZ 4 and enjoy ;-)
+
+## More infos
+
+- [Lulzbot](https://www.lulzbot.com)
+- [Lulzbot Cura Debian installation](https://www.lulzbot.com/cura/debian-installation)
+- [PTL](https://www.posttenebraslab.ch)
