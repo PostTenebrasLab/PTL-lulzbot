@@ -2,7 +2,15 @@
 
 Docker version of Cura Lulzbot Edition.
 
-## Usage example for Linux
+The current directory will be used as a shared folder.
+
+## With Docker Compose
+
+```bash
+docker-compose up -d
+```
+
+## With docker run on Linux
 
     docker pull posttenebraslab/ptl-lulzbot
 

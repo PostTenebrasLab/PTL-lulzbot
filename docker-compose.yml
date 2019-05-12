@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  cura:
+    image: posttenebraslab/ptl-lulzbot
+    environment:
+      DISPLAY:
+    volumes:
+      - .:/home/ptl/Documents/
+      - /dev/ttyACM0:/dev/ttyACM0
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    container_name: ptl-lulzbot
